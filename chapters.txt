@@ -1,0 +1,34 @@
+lec2: problem solving
+
+* problem reduction
+	* safe transformations (always work)
+	* heuristic transformations (sometimes work)
+	* problem reduction tree / and/or-tree / goal tree
+
+
+* integration
+	* safe
+		int - f x = - int f x
+		int c * f x = c * int f x
+		int f x + g x = (int f x) + (int g x)
+			* AND-node (multiple sub-problems)
+		int f x / g x => DIVIDE!
+	* heuristic (OR nodes)
+		* trigonometric
+		* from trig to polynomial
+		* from polynomial to trig
+		* see wikipedia, probably :P
+	* what to work on first? least functional composition
+
+lec 3
+
+* goal-trees allow why/how questions
+* block-stacking program
+* deduction system
+	* forward-chaining rule based expert system
+		* animal classification
+	* backward-chaining
+* rules of knowlege-engineers
+	* observe specific cases
+	* search for new words
+	* build a system and see when it cracks
